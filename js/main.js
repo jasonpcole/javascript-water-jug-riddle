@@ -24,8 +24,6 @@ $(function(){
         // build water jugs function
         wjBuild: function() {
 
-            var wjConfigObj = this.wjConfig;
-
             this.wjEvents();
         },
 
@@ -105,7 +103,7 @@ $(function(){
                 // test to see if target amount was reached
                 var testAmount = function() {
                     var amount = $("section > ul li").find("span").html();
-                    if(amount === waterJugs.wjConfig.targetAmount) {
+                    if(amount == waterJugs.wjConfig.targetAmount) {
                         $("#win").show();
                     }
                 };
