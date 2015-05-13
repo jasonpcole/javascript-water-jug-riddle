@@ -1,6 +1,3 @@
-
-
-$(function(){
    
     var waterJugs = {
 
@@ -134,5 +131,3 @@ $(function(){
 
     // call water jugs initilization 
     waterJugs.init();
-
-});
